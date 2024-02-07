@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practical 4</title>
+</head>
+
+<body>
+    <header>
+        <h1>Registration form</h1>
+    </header>
+    <form method="get">
+        <label for="firstname">Firstname : </label>
+        <input type="text" name="fname"><br>
+        <br>
+        <label for="lastname">Lastname : </label>
+        <input type="text" name="lname"><br>
+        <br>
+        <label for="password">Password :</label>
+        <input type="password" name="pwd">
+        <br>
+        <br>
+
+        <label for="Gender">Gender :</label>
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female
+        <input type="radio" name="Gender">Other
+        <br><br>
+
+        <label for="Gender">Country : </label>
+        <input type="radio" name="Country">America
+        <input type="radio" name="Country">France
+        <input type="radio" name="Country">Germany
+        <br>
+        <br>
+
+        <label for="hbs">Hobbies : </label>
+        <input type="checkbox" name="hbs" value="Cricket">Cricket
+        <input type="checkbox" name="hbs" value="Singing">Singing
+        <input type="checkbox" name="hbs" value="Reading">Reading
+        <br><br>
+
+        <label for="br">Branch : </label>
+        <select name="Branch">
+            <option>CSE</option>
+            <option>Mech</option>
+            <option>Civil</option>
+        </select>
+        <br><br>
+
+        <label for="sub">Subject : </label>
+        <select name="subject">
+            <option>DLDM</option>
+            <option>DAA</option>
+            <option>PNS</option>
+        </select>
+        <br><br>
+
+        <label for="email">Email : </la0bel>
+            <input type="email" name="email" required>
+            <br><br>
+
+            <label for="age">Age : </label>
+            <input type="number" name="age" min="0" max="100">
+           <br><br>
+
+            <label for="pricerange">Price : </label>
+            <input type="range" name="pr" min="0" max="100">
+           <br><br>
+        
+            <label for="br">Birthdate : </label>
+            <input type="date" name="br">
+            <br><br>
+            
+            <label for="add">Address : </label>
+            <textarea rows="5" cols="15"></textarea>
+            <br><br>
+
+            <marquee>
+                <h1>Rajat Ranvir</h1>
+            </marquee>
+
+
+            <input type="submit" value="Register">
+    </form>
+</body>
+
+</html>
