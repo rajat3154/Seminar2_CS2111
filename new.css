@@ -1,0 +1,21 @@
+body {
+    background-image: url('gradient.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.person {
+    border: 10px solid transparent;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 80%;
+    opacity: 0.7;
+}
+
+.person:hover {
+    border-color: #f1f1f1;
+}
+
+<img src="bandmember.jpg" class="img-circle person" alt="Random Name"><img src="bandmember.jpg" class="img-circle person" alt="Random Name"><img src="bandmember.jpg" class="img-circle person" alt="Random Name">
